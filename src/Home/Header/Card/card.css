@@ -1,0 +1,52 @@
+.mainCard {
+    width: 370px;
+    height: 290px;
+    background-color: rgb(235, 228, 221);
+    border-radius: .5rem;
+    box-shadow: 2px 2px 3px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloCard {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 85%;
+    margin-top: .5rem;
+}
+
+.footerCard {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.descricao {
+    width: 80%;
+    font-size: .8rem;
+}
+
+.icones {
+    color: red;
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.arrow{
+    border: none;
+    padding: 1rem;
+    background-color: transparent;
+    color: red;
+    font-size: 2rem;
+    transition: 1s;
+}
+
+.arrow:hover {
+    font-size: 2.2rem;
+    background-color: transparent;
+}

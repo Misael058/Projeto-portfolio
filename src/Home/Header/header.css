@@ -1,0 +1,34 @@
+.cabecalho {
+    background-color: rgb(243, 32, 32);
+   
+    width: 100%;
+    padding: .5rem;
+    box-shadow: 2px 2px 3px #242424;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho img {
+    height: 100px;
+    cursor: pointer;
+}
+
+.cabecalho  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    font-size: 1rem;
+    margin: 1rem;
+
+}
+.cabecalho nav {
+  
+    text-align: center;
+}
+
+.cabecalho a:hover {
+    opacity: 0.8;
+}

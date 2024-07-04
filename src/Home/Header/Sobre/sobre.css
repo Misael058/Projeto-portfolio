@@ -1,0 +1,38 @@
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.biografia {
+    display: flex;
+    text-align: start;
+    gap: 3rem;
+}
+
+
+
+.biografia img {
+    border-radius: 1rem;
+    box-shadow: #242424 1px 1px 1px;
+    margin-left: 1rem;
+    cursor: pointer;
+  
+}
+
+.competencias {
+    margin: 1rem;
+}
+
+.competencias i {
+    color: red;
+    margin: .5rem;
+    font-size: 3.3rem;
+    cursor: pointer;
+  
+}
+
+.sobreEu b {
+    font-size: 1rem;
+}
